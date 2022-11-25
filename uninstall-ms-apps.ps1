@@ -3,6 +3,7 @@ foreach($app in (Get-AppxPackage)) {
     "Microsoft.WindowsStore" {}
     "Microsoft.DesktopAppInstaller" {}
     "Microsoft.WindowsNotepad" {}
+    "Microsoft.ScreenSketch" {}
     default { Remove-AppxPackage $app }
   }
 }
